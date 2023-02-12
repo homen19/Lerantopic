@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    /* border: 1px solid red; */
+    height: 100vh;
+    background-color: #242B2E;
+}
+.right{
+    border: 1px solid blue;
+    height: 100vh;
+    background-color: #FBFBFB;
+    overflow: auto;
+}
