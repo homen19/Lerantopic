@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-weight: 550;
+}
+.Intro-java{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.ex1{
+    width: 50%;
+    height: 300px;
+    /* border: 1px solid red; */
+}

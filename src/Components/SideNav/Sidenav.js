@@ -1,5 +1,6 @@
 import React from 'react'
 import './SideNav.css';
+import { Link } from 'react-router-dom';
 
 import Item from "./data";
 
@@ -18,7 +19,8 @@ export const Sidenav = () => {
 
             {Item.map(d => (
               <div className='NavItems' key={d.id}>
-                <p>{d.title}</p>
+              <p><Link className='l1' to={d.path}>{d.title}</Link></p>
+               
               </div>
             ))}
 

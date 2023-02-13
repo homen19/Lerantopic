@@ -7,3 +7,10 @@
     cursor: pointer;
     margin-bottom: 20px;
 }
+.NavItems:hover{
+    font-size: large;
+}
+.NavItems  a{
+    color: #fff;
+    text-decoration: none;
+}
