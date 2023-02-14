@@ -1,115 +1,15 @@
-.body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
- 
+.welcome {
+  height: 300px;
+  border-radius: 5px;
+  background-color: gray;
+  box-shadow: 0px 0px 9px 0px rgba(119, 118, 118, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(119, 115, 115, 0.75);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(124, 118, 118, 0.75);
 }
-
-header {
-background-color: #333;
-  color: #fff;
-  padding: 350px;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.welcome h1{
+  padding-top: 85px;
 }
-
-header h1 {
-  margin: 0;
-}
-
-nav {
-  background-color: #ddd;
-  display: flex;
-  justify-content: right;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 10px 20px;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-section h2 {
-    margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-section p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-section ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-section li {
-  margin: 0 20px;
-  font-size: 18px;
-}
-
-section form {
-  text-align: left;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
-section label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-section input[type="text"],
-section input[type="email"],
-section textarea {
-  padding: 10px;
-  font-size: 18px;
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-}
-
-section input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-footer p {
-  margin: 0;
+.about{
+  
+  /* border: 1px solid red; */
 }
